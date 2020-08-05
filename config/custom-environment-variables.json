@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "vidly_jwtPrivateKe",
-  "db": "vidly_db"
+  "db": "dolan_db"
 }
