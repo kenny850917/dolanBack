@@ -63,3 +63,9 @@
 {"level":"info","message":"Connected to mongodb://localhost/dolan...","timestamp":"2020-08-05T03:49:25.866Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-05T03:49:29.933Z"}
 {"level":"info","message":"Connected to mongodb://localhost/dolan...","timestamp":"2020-08-05T03:49:29.949Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-05T04:22:58.547Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-08-05T04:22:58.560Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-05T04:26:00.154Z"}
+{"level":"info","message":"Connected to mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan...","timestamp":"2020-08-05T04:26:00.701Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-05T04:41:42.225Z"}
+{"level":"info","message":"Connected to mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan...","timestamp":"2020-08-05T04:41:42.770Z"}
