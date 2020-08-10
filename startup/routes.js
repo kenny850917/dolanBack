@@ -2,6 +2,7 @@ const express = require("express");
 const genres = require("../routes/genres");
 const customers = require("../routes/customers");
 const products = require("../routes/products");
+const checkout = require("../routes/checkout");
 const rentals = require("../routes/rentals");
 const users = require("../routes/users");
 const auth = require("../routes/auth");
@@ -13,6 +14,7 @@ module.exports = function (app) {
   app.use("/api/genres", genres);
   app.use("/api/customers", customers);
   app.use("/api/products", products);
+  app.use("/api/checkout", checkout);
   app.use("/api/rentals", rentals);
   app.use("/api/users", users);
   app.use("/api/auth", auth);

@@ -5,6 +5,12 @@ const { genreSchema } = require("./genre");
 const Product = mongoose.model(
   "Products",
   new mongoose.Schema({
+    image: {
+      type: String,
+      trim: true,
+      minlength: 5,
+      maxlength: 255,
+    },
     title: {
       type: String,
       required: true,
@@ -33,6 +39,7 @@ const Product = mongoose.model(
 
 function validateProduct(product) {
   const schema = {
+    // image: Joi.string().min(5).max(50),
     title: Joi.string().min(5).max(50).required(),
     genreId: Joi.objectId().required(),
     numberInStock: Joi.number().min(0).required(),
