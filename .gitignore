@@ -1,5 +1,5 @@
 .config
 node_modules
-config/custom-environment-variables.json
-config/default.json
+# config/custom-environment-variables.json
+# config/default.json
 config/test.json
