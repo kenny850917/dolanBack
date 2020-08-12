@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": "",
+  "db": "process.env.MONGODB_URL",
   "port": "3900",
   "requiresAuth": true
 }
