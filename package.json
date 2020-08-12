@@ -7,8 +7,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "seed": "node seed.js",
-    "test": "jest --watchAll --verbose",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
+    "test": "jest --watchAll --verbose"
   },
   "keywords": [],
   "author": "",
