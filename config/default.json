@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": "process.env.MONGODB_URL",
+  "db": "mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan",
   "port": "3900",
   "requiresAuth": true
 }
