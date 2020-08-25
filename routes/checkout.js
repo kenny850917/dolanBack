@@ -27,7 +27,7 @@ router.post("/", [auth], async (req, res) => {
       name: genre.name,
     },
     numberInStock: req.body.numberInStock,
-    dailyRentalRate: req.body.dailyRentalRate,
+    price: req.body.price,
     publishDate: moment().toJSON(),
   });
   await product.save();
@@ -51,7 +51,7 @@ router.put("/:id", [auth], async (req, res) => {
         name: genre.name,
       },
       numberInStock: req.body.numberInStock,
-      dailyRentalRate: req.body.dailyRentalRate,
+      price: req.body.price,
     },
     { new: true }
   );
