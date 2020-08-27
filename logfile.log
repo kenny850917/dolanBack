@@ -180,3 +180,5 @@
 {"level":"info","message":"Connected to mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan...","timestamp":"2020-08-24T23:49:00.154Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-24T23:55:44.002Z"}
 {"level":"info","message":"Connected to mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan...","timestamp":"2020-08-24T23:55:44.559Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-27T23:04:17.902Z"}
+{"level":"info","message":"Connected to mongodb+srv://dolanAdmin:admin1234@cluster0.jruzj.mongodb.net/dolan...","timestamp":"2020-08-27T23:04:18.653Z"}
