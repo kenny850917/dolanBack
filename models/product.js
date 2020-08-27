@@ -26,12 +26,13 @@ const Product = mongoose.model(
       type: Number,
       required: true,
       min: 0,
-      max: 1000,
+      max: 255,
     },
-    price: {
+    dailyRentalRate: {
       type: Number,
       required: true,
       min: 0,
+      max: 255,
     },
   })
 );
@@ -42,7 +43,7 @@ function validateProduct(product) {
     title: Joi.string().min(5).max(50).required(),
     genreId: Joi.objectId().required(),
     numberInStock: Joi.number().min(0).required(),
-    price: Joi.number().min(0).required(),
+    dailyRentalRate: Joi.number().min(0).required(),
   };
 
   return Joi.validate(product, schema);

@@ -33,7 +33,7 @@ const rentalSchema = new mongoose.Schema({
         minlength: 5,
         maxlength: 255,
       },
-      price: {
+      dailyRentalRate: {
         type: Number,
         required: true,
         min: 0,
@@ -67,7 +67,7 @@ rentalSchema.methods.return = function () {
   this.dateReturned = new Date();
 
   const rentalDays = moment().diff(this.dateOut, "days");
-  this.rentalFee = rentalDays * this.product.price;
+  this.rentalFee = rentalDays * this.product.dailyRentalRate;
 };
 
 const Rental = mongoose.model("Rental", rentalSchema);
