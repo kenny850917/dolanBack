@@ -36,7 +36,7 @@ router.post("/", auth, async (req, res) => {
     product: {
       _id: product._id,
       title: product.title,
-      dailyRentalRate: product.dailyRentalRate,
+      price: product.price,
     },
   });
 
